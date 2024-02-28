@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import Menu from './Menu'
 
 const Navbar = () => {
   return (
@@ -9,14 +10,7 @@ const Navbar = () => {
         <Link href={"/"} className='btn btn-ghost text-lg'>
           Shop
         </Link>
-        <ul className='flex'>
-        <li>
-          <Link href={"/cart"} className='btn btn-ghost rounded-btn'>Cart</Link>
-        </li>
-        <li>
-          <Link href={"/sign"} className='btn btn-ghost rounded-btn'>Sign in</Link>
-        </li>
-        </ul>
+       <Menu />
         </div>
       </nav>
     </header>

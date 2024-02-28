@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FrontendLayout = ({children}:React.ReactNode) => {
+const FrontendLayout = ({children,}: Readonly<{children: React.ReactNode;}>) => {
  
   return (
     <main className='flex-grow container mx-auto px-4'>
